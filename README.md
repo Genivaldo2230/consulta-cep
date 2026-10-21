@@ -29,7 +29,7 @@ O BuscaCEP é um projeto desenvolvido para praticar fundamentos de desenvolvimen
 1. Clone este repositório:
 
    ```bash
-   git clone URL_DO_SEU_REPOSITORIO
+   https://github.com/Genivaldo2230/consulta-cep.git
    ```
 
 2. Entre na pasta do projeto:
