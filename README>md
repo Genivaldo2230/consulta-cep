@@ -1,0 +1,76 @@
+# BuscaCEP — Consulta de CEP
+
+Aplicação web para consultar CEPs brasileiros e visualizar informações de endereço utilizando a API pública ViaCEP.
+
+## Sobre o projeto
+
+O BuscaCEP é um projeto desenvolvido para praticar fundamentos de desenvolvimento web, manipulação do DOM, consumo de APIs e tratamento de erros com JavaScript.
+
+## Funcionalidades
+
+- Consulta de CEPs brasileiros.
+- Formatação automática do CEP com hífen.
+- Exibição de logradouro, bairro, cidade e estado.
+- Validação de entradas.
+- Mensagens de carregamento, sucesso e erro.
+- Tratamento de falhas na requisição.
+- Interface responsiva para diferentes tamanhos de tela.
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- API REST ViaCEP
+- Git e GitHub
+
+## Como executar o projeto
+
+1. Clone este repositório:
+
+   ```bash
+   git clone URL_DO_SEU_REPOSITORIO
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd consulta-cep
+   ```
+
+3. Abra o arquivo `index.html` no navegador.
+
+   Você também pode utilizar a extensão Live Server no Visual Studio Code.
+
+## API utilizada
+
+O projeto utiliza o serviço público ViaCEP:
+
+https://viacep.com.br/
+
+Exemplo de consulta:
+
+https://viacep.com.br/ws/01001000/json/
+
+## Aprendizados
+
+Durante o desenvolvimento, pratiquei:
+
+- Manipulação de elementos HTML com JavaScript.
+- Eventos de formulário.
+- Validação e formatação de dados.
+- Requisições HTTP com `fetch`.
+- Programação assíncrona com `async/await`.
+- Tratamento de erros com `try/catch/finally`.
+- Organização de arquivos e controle de versão com Git.
+
+## Próximas melhorias
+
+- Adicionar botão para copiar o endereço.
+- Permitir limpar os resultados da consulta.
+- Melhorar a acessibilidade e a experiência do usuário.
+- Publicar uma demonstração online.
+
+## Autor
+Genivaldo A Anjos.
+Desenvolvido como projeto de estudo para meu portfólio de desenvolvimento web.

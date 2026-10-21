@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+bod {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/*Cartao principal*/
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  padding: 36px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+}
+
+/*Titulos e Textos*/
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 32px;
+  color: #0f766e;
+}
+.container > p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/*Formaulario*/
+
+form {
+  margin-top: 28px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.campo-busca {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid #0d9488;
+  outline-offset: 2px;
+}
+
+button {
+  padding: 13px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #0f766e;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #115e59;
+}
+
+button:focus-visible {
+  outline: 3px solid #14b8a6;
+  outline-offset: 3px;
+}
+
+/*Mensagem e resultado*/
+
+#mesagem {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+#resultado {
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid #ccfbf1;
+  border-radius: 10px;
+  background: #f0fdfa;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+#resultado[hidden] {
+  display: none;
+}
+
+/* configuração tela de celular*/
+
+@media (max-width: 480px) {
+  .container {
+    padding: 24px 18px;
+  }
+
+  .campo-busca {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}

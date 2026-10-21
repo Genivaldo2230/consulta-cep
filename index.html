@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Consulte CEPs brasileiros e encontre endereços rapidamente."
+    />
+    <title>BuscaCEP | Consulta de endereços</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>BuscaCEP</h1>
+      <p>Encontre um Endereço usando o CEP.</p>
+      <form id="formulario-cep">
+        <label for="cep">Digite o CEP</label>
+        <div calss="campo.busca">
+          <input
+            type="text"
+            id="cep"
+            placeholder="Ex.: CEP 00000-000"
+            maxlength="9"
+            autocomplete="postal-code"
+            inputmode="numeric"
+            required
+          />
+          <button type="submit" id="button">Consultar</button>
+        </div>
+      </form>
+
+      <p id="mensagem" role="status" aria-live="polite"></p>
+      <section id="resultado" aria-label="Endereço encontrado" hidden></section>
+    </main>
+  </body>
+</html>
